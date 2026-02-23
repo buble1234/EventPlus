@@ -23,7 +23,7 @@ Subscribing objects to events, firing cancellable and non-cancellable events, pr
 
 ```groovy
 dependencies {
-    modImplementation 'com.github.yourusername:EventPlus:1.21.10'
+    modImplementation 'com.github.buble:EventPlus:1.21.10'
 }
 ```
 
