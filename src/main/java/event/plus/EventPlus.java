@@ -9,7 +9,6 @@ public class EventPlus implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        sub(this);
     }
 
 
