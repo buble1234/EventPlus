@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "eventplus",
+  "version": "${version}",
+  "name": "EventPlus",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/eventplus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "event.plus.Eventplus"
+    ]
+  },
+  "mixins": [
+    "eventplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
